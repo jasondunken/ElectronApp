@@ -5,7 +5,7 @@ and uses some [Angular Material](https://material.angular.io) ui components.
 
 It uses a [Leaflet](https://leafletjs.com) map.
 
-It is intended to be compiled into an [Electron](https://www.electronjs.org) executable application.
+It can be compiled into an [Electron](https://www.electronjs.org) executable application.
 
 [Node](https://nodejs.org) is required.
 
