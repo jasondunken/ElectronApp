@@ -20,12 +20,13 @@ It can be compiled into an [Electron](https://www.electronjs.org) executable app
   // the npx command prefix tells node to use only local packages
   // this method avoids a global Angular installation
   
-  // Serves the app via Angular's dev server bound to port 4200
-  >npx ng serve
-  // Open's the app in your default browser
-  >npx ng serve -o / --open
-  // Binds the dev server to a port you specify
-  >npx ng serve --port xxxx
+  >npx ng serve // Serves the app via Angular's dev server bound to port 4200
+```
+- some serve options:
+```
+  --open // Open's the app in your default browser
+  --port xxxx // Binds the dev server to a port you specify
+  --host xxx.xxx.xxx.xxx // serves the app on your local network instead of 127.0.0.1
 ```
 ### to build the Angular app:
 ```
