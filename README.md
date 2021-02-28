@@ -33,12 +33,12 @@ It is intended to be compiled into an [Electron](https://www.electronjs.org) exe
 ```
 - build command:
 ```
-  >npx ng build --prod --output-path C:\Users\user\ws-sami\pysami\src\static --output-hashing none`
+  >npx ng build --prod --output-path C:\%SOME_PATH% --output-hashing none`
 ```
 -  These are the optional flag definitions:
 ```
-  --prod instructs // the compiler to build a production version of the Angular app
-  --output-path // tells the compiler where to save the built files
+  --prod // instructs the compiler to build a production version of the Angular app
+  --output-path // instructs the compiler where to save the build results
   --output-hashing none // instructs the compiler not to append the file names with the file's hash
 ```
 ### to build the Electron app:
