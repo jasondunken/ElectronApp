@@ -1,4 +1,4 @@
-# ElectronAngularApp
+# ElectronApp
 
 This project is constructed with [Angular](https://angular.io),
 and uses some [Angular Material](https://material.angular.io) ui components.
