@@ -7,9 +7,26 @@ It uses a [Leaflet](https://leafletjs.com) map.
 
 It is intended to be compiled into an [Electron](https://www.electronjs.org) executable application.
 
-### To build
+[Node](https://nodejs.org) is required.
 
-#### Import Electron Forge to your app folder:
+### to set up a development environment:
+- clone the project
+- cd into project
+- npm install
+- serve commands:
+  - npx ng serve
+  - npx ng serve -o / --open
+  - npx ng serve --port xxxx
+
+### to build the Angular app:
+- cd to project directory
+- build command:
+  - ng build --prod=true
+
+### to build the Electron app:
+
+- Import Electron Forge to your app folder:
+
 ```
 npx @electron-forge/cli import
 
@@ -24,7 +41,9 @@ We have ATTEMPTED to convert your app to be in a format that electron-forge unde
 
 Thanks for using "electron-forge"!!!
 ```
-#### Create a distributable:
+
+- Create a distributable:
+
 ```
 npm run make
 
