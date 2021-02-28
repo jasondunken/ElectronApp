@@ -7,7 +7,7 @@ It uses a [Leaflet](https://leafletjs.com) map.
 
 It can be compiled into an [Electron](https://www.electronjs.org) executable application.
 
-[Node](https://nodejs.org) is required.
+[Git](https://git-scm.com) and [Node](https://nodejs.org) are required.
 
 ### to set up a development environment:
 ```
@@ -75,5 +75,5 @@ It can be compiled into an [Electron](https://www.electronjs.org) executable app
   ✔ Packaging Application
   Making for the following targets: zip
   ✔ Making for target: zip - On platform: darwin - For arch: x64
-  ...
 ```
+- The executable will be located in the `ElectronApp/out` directory
