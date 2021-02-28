@@ -76,4 +76,4 @@ It can be compiled into an [Electron](https://www.electronjs.org) executable app
   Making for the following targets: zip
   ✔ Making for target: zip - On platform: darwin - For arch: x64
 ```
-- The executable will be located in `ElectronApp/out`
+- The executable will be located in `ElectronApp/out/make/squirrel.windows/x64/`
