@@ -34,12 +34,12 @@ It can be compiled into an [Electron](https://www.electronjs.org) executable app
 ```
 - build command:
 ```
-  >npx ng build --prod --output-path C:\%SOME_PATH% --output-hashing none`
+  >npx ng build // builds dev version of the app and saves it in the dist directory by default
 ```
 -  some build options:
 ```
-  --prod // instructs the compiler to build a production version of the Angular app
-  --output-path // instructs the compiler where to save the build results
+  --prod // instructs the compiler to build a production version of the app
+  --output-path %SOME_PATH% // instructs the compiler where to save the build results
   --output-hashing none // instructs the compiler not to append the file names with the file's hash
 ```
 ### to build the Electron app:
