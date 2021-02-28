@@ -15,7 +15,7 @@ It can be compiled into an [Electron](https://www.electronjs.org) executable app
   >cd ElectronApp
   >npm install
 ```
-- development serve commands:
+- development serve command:
 ```
   // the npx command prefix tells node to use only local packages
   // this method avoids a global Angular installation
@@ -36,7 +36,7 @@ It can be compiled into an [Electron](https://www.electronjs.org) executable app
 ```
   >npx ng build --prod --output-path C:\%SOME_PATH% --output-hashing none`
 ```
--  These are the optional flag definitions:
+-  some build options:
 ```
   --prod // instructs the compiler to build a production version of the Angular app
   --output-path // instructs the compiler where to save the build results
