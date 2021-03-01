@@ -6,7 +6,6 @@ import { HttpClientModule } from '@angular/common/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { MapComponent } from './components/map/map.component';
-import { ForecastComponent } from './components/forecast/forecast.component';
 import { HeaderComponent } from './components/header/header.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
@@ -22,7 +21,6 @@ import { MatButtonModule } from '@angular/material/button';
   declarations: [
     AppComponent,
     MapComponent,
-    ForecastComponent,
     HeaderComponent
   ],
   imports: [
