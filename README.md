@@ -50,12 +50,12 @@ It can be compiled into an [Electron](https://www.electronjs.org) v11.3.0 execut
 ```
   >npx @electron-forge/cli import
 
-  ✔ Checking your system
-  ✔ Initializing Git Repository
-  ✔ Writing modified package.json file
-  ✔ Installing dependencies
-  ✔ Writing modified package.json file
-  ✔ Fixing .gitignore
+  :heavy_check_mark: Checking your system
+  :heavy_check_mark: Initializing Git Repository
+  :heavy_check_mark: Writing modified package.json file
+  :heavy_check_mark: Installing dependencies
+  :heavy_check_mark: Writing modified package.json file
+  :heavy_check_mark: Fixing .gitignore
 
   We have ATTEMPTED to convert your app to be in a format that electron-forge understands.
 
@@ -69,13 +69,13 @@ It can be compiled into an [Electron](https://www.electronjs.org) v11.3.0 execut
   my-gsod-electron-app@1.0.0 make /my-electron-app
   electron-forge make
 
-  ✔ Checking your system
-  ✔ Resolving Forge Config
+  :heavy_check_mark: Checking your system
+  :heavy_check_mark: Resolving Forge Config
   We need to package your application before we can make it
-  ✔ Preparing to Package Application for arch: x64
-  ✔ Preparing native dependencies
-  ✔ Packaging Application
+  :heavy_check_mark: Preparing to Package Application for arch: x64
+  :heavy_check_mark: Preparing native dependencies
+  :heavy_check_mark: Packaging Application
   Making for the following targets: zip
-  ✔ Making for target: zip - On platform: darwin - For arch: x64
+  :heavy_check_mark: Making for target: zip - On platform: darwin - For arch: x64
 ```
 - The executable will be located in `ElectronApp/out/make/squirrel.windows/x64/`
