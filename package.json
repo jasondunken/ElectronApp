@@ -68,7 +68,7 @@
     "forge": {
       "packagerConfig": {
         "name": "electron_app",
-        "icon": "src/assets/images/image.ico",
+        "icon": "src/favicon.ico",
         "asar": true
       },
       "makers": [
@@ -76,7 +76,7 @@
           "name": "@electron-forge/maker-squirrel",
           "config": {
             "name": "electron_app",
-            "setupIcon": "src/assets/images/image.ico",
+            "setupIcon": "src/favicon.ico",
             "setupExe": "ElectronApp.exe",
             "noMsi": "true"
           }

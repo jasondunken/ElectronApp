@@ -14,7 +14,7 @@ function createWindow() {
         },
         resizable: false,
         frame: false,
-        icon: path.join(__dirname, 'src/assets/images/image.ico')
+        icon: path.join(__dirname, 'src/favicon.ico')
     });
     appWindow.loadFile(path.join(__dirname, `dist/index.html`));
     // appWindow.webContents.openDevTools();
