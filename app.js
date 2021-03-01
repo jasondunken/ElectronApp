@@ -3,6 +3,8 @@ const path = require("path");
 
 let appWindow;
 
+if (require('electron-squirrel-startup')) return app.quit();
+
 function createWindow() {
     appWindow = new BrowserWindow({
         width: 1280,
@@ -11,9 +13,9 @@ function createWindow() {
             nodeIntegration: true
         },
         resizable: false,
-        frame: false
+        frame: false,
+        icon: path.join(__dirname, 'src/assets/images/image.ico')
     });
-
     appWindow.loadFile(path.join(__dirname, `dist/index.html`));
     // appWindow.webContents.openDevTools();
 }

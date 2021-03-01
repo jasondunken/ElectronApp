@@ -1,5 +1,5 @@
 {
-  "name": "electron-angular-app",
+  "name": "electron-app",
   "version": "0.0.1",
   "main": "app.js",
   "author": "bitbytebytes",
@@ -67,13 +67,18 @@
   "config": {
     "forge": {
       "packagerConfig": {
+        "name": "electron_app",
+        "icon": "src/assets/images/image.ico",
         "asar": true
       },
       "makers": [
         {
           "name": "@electron-forge/maker-squirrel",
           "config": {
-            "name": "electron_angular_app"
+            "name": "electron_app",
+            "setupIcon": "src/assets/images/image.ico",
+            "setupExe": "ElectronApp.exe",
+            "noMsi": "true"
           }
         },
         {
