@@ -1,13 +1,13 @@
 # ElectronApp
 
-This project is constructed with [Angular](https://angular.io),
-and uses some [Angular Material](https://material.angular.io) ui components.
+This project is constructed with [Angular](https://angular.io) v11.2.3,
+and uses some [Angular Material](https://material.angular.io) v11.2.2 ui components.
 
-It uses a [Leaflet](https://leafletjs.com) map.
+It uses a [Leaflet](https://leafletjs.com) v1.7.1 map.
 
-It can be compiled into an [Electron](https://www.electronjs.org) executable application.
+It can be compiled into an [Electron](https://www.electronjs.org) v11.3.0 executable application.
 
-[Git](https://git-scm.com) and [Node](https://nodejs.org) are required.
+[Git](https://git-scm.com) 2.30.1 and [Node](https://nodejs.org) 14.16.0 are required.
 
 ### to set up a development environment:
 ```
