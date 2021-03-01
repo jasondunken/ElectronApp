@@ -6,11 +6,12 @@ let appWindow;
 
 function createWindow() {
     appWindow = new BrowserWindow({
-        width: 1000,
-        height: 800,
+        width: 1280,
+        height: 720,
         webPreferences: {
             nodeIntegration: true
         },
+        resizable: false,
         frame: false
     });
 
