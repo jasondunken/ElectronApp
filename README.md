@@ -20,13 +20,16 @@ It can be compiled into an [Electron](https://www.electronjs.org) executable app
   // the npx command prefix tells node to use only local packages
   // this method avoids a global Angular installation
   
+  // this command launches the angular app as a web page
   >npx ng serve // Serves the app via Angular's dev server bound to port 4200
-```
-- some serve options:
-```
+  
+  // some serve options 
   --open // Open's the app in your default browser
   --port xxxx // Binds the dev server to a port you specify
   --host xxx.xxx.xxx.xxx // serves the app on your local network instead of 127.0.0.1
+  
+  // this command launches the electron app in a new window
+  >npm run start:electron
 ```
 ### to build the Angular app:
 ```
@@ -35,9 +38,8 @@ It can be compiled into an [Electron](https://www.electronjs.org) executable app
 - build command:
 ```
   >npx ng build // builds dev version of the app and saves it in the dist directory by default
-```
--  some build options:
-```
+
+  // some build options:
   --prod // instructs the compiler to build a production version of the app
   --output-path %SOME_PATH% // instructs the compiler where to save the build results
   --output-hashing none // instructs the compiler not to append the file names with the file's hash
@@ -48,7 +50,7 @@ It can be compiled into an [Electron](https://www.electronjs.org) executable app
 ```
   >npx @electron-forge/cli import
 
-  ✔ Checking your system`
+  ✔ Checking your system
   ✔ Initializing Git Repository
   ✔ Writing modified package.json file
   ✔ Installing dependencies
