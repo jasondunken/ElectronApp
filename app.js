@@ -4,31 +4,22 @@ const path = require("path");
 
 let appWindow;
 
-function initWindow() {
+function createWindow() {
     appWindow = new BrowserWindow({
         width: 1000,
         height: 800,
         webPreferences: {
             nodeIntegration: true
-        }
+        },
+        frame: false
     });
 
-    appWindow.loadURL(
-        url.format({
-            pathname: path.join(__dirname, `dist/index.html`),
-            protocol: "file:",
-            slashes: true
-        })
-    );
+    appWindow.loadFile(path.join(__dirname, `dist/index.html`));
 
-    appWindow.webContents.openDevTools();
-
-    appWindow.on('closed', function () {
-        appWindow = null;
-    })
+    // appWindow.webContents.openDevTools();
 }
 
-app.on('ready', initWindow);
+app.whenReady().then(createWindow);
 
 app.on('window-all-closed', function () {
     if (process.platform !== 'darwin') {
