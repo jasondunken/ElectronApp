@@ -50,7 +50,7 @@ It can be compiled into an [Electron](https://www.electronjs.org) executable app
 ```
   >npx @electron-forge/cli import
 
-  ✔ Checking your system`
+  ✔ Checking your system
   ✔ Initializing Git Repository
   ✔ Writing modified package.json file
   ✔ Installing dependencies
