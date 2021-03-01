@@ -48,6 +48,7 @@ It can be compiled into an [Electron](https://www.electronjs.org) v11.3.0 execut
 - Import Electron Forge to your app folder:
 
 ```
+  >cd ElectronApp
   >npx @electron-forge/cli import
 
   ✔ Checking your system
