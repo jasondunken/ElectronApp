@@ -61,7 +61,7 @@ It can be compiled into an [Electron](https://www.electronjs.org) v11.3.0 execut
 
   Thanks for using "electron-forge"!!!
 ```
-- Create a distributable:
+- Create an executable:
 
 ```
   >npm run make
