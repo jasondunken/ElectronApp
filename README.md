@@ -7,7 +7,7 @@ It uses a [Leaflet](https://leafletjs.com) v1.7.1 map.
 
 It can be compiled into an [Electron](https://www.electronjs.org) v11.3.0 executable application.
 
-[Git](https://git-scm.com) 2.30.1 and [Node](https://nodejs.org) 14.16.0 are required.
+[Git](https://git-scm.com) v2.30.1 and [Node](https://nodejs.org) v14.16.0 are required.
 
 ### to set up a development environment:
 ```
