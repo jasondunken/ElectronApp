@@ -37,7 +37,7 @@ It can be compiled into an [Electron](https://www.electronjs.org) v11.3.0 execut
 ```
 - build command:
 ```
-  >npx ng build // builds dev version of the app and saves it in the dist directory by default
+  >npx ng build // builds dev version of the app and saves files in ElectronApp/dist/ by default
 
   // some build options:
   --prod // instructs the compiler to build a production version of the app
