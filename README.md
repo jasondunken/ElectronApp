@@ -21,7 +21,7 @@ It can be compiled into an [Electron](https://www.electronjs.org) v11.3.0 execut
   // this method avoids a global Angular installation
   
   // this command launches the angular app as a web page
-  >npx ng serve // Serves the app via Angular's dev server bound to port 4200
+  >npx ng serve // Serves the app via Angular's dev server bound to 127.0.0.1:4200
   
   // some serve options 
   --open // Open's the app in your default browser
