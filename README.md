@@ -34,14 +34,16 @@ It can be compiled into an [Electron](https://www.electronjs.org) v11.3.0 execut
 ```
 - angular build command:
 ```
-  >npx ng build // this command buids the angular files saves them in the "outputPath" specified in angular.json
+  >npx ng build // this command buids the angular files saves them in the "outputPath" specified 
+                // in angular.json
   
   // this command builds the angular production files for electron deployment
   >npx ng build --prod --base-ref ./ --output-hashing none
 
   // some build options descriptions:
   --prod // instructs the compiler to build a production version of the app
-  --base-ref ./ // this argument is critical to ensure electron knows where to find the angular files as angular defaults to '/'
+  --base-ref ./ // this argument is critical to ensure electron knows where to find the angular 
+                // files as angular defaults to '/'
   --output-path %SOME_PATH% // instructs the compiler where to save the build results
   --output-hashing none // instructs the compiler not to append the file names with the file's hash
 ```
