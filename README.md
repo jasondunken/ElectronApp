@@ -15,7 +15,7 @@ It can be compiled into an [Electron](https://www.electronjs.org) v11.3.0 execut
   >cd ElectronApp
   >npm install
 ```
-- development serve command:
+- angular development serve command:
 ```
   // the npx command prefix tells node to use only local packages
   // this method avoids a global angular installation
@@ -27,24 +27,33 @@ It can be compiled into an [Electron](https://www.electronjs.org) v11.3.0 execut
   --open // open's the app in your default browser
   --port xxxx // binds the dev server to a port you specify
   --host xxx.xxx.xxx.xxx // serves the app on your local network instead of 127.0.0.1
-  
-  // this command builds angular production files and launches the electron app in a new system window
-  >npm run start:electron
 ```
 ### to build the Angular app:
 ```
   >cd ElectronApp
 ```
-- build command:
+- angular build command:
 ```
-  >npx ng build // builds dev version of the app and saves files in ElectronApp/dist/ by default
+  >npx ng build // this command buids the angular files saves them in the "outputPath" specified in angular.json
+  
+  // this command builds the angular production files for electron deployment
+  >npx ng build --prod --base-ref ./ --output-hashing none
 
-  // some build options:
+  // some build options descriptions:
   --prod // instructs the compiler to build a production version of the app
+  --base-ref ./ // this argument is critical to ensure electron knows where to find the angular files as angular defaults to '/'
   --output-path %SOME_PATH% // instructs the compiler where to save the build results
   --output-hashing none // instructs the compiler not to append the file names with the file's hash
 ```
-### to build the Electron app:
+ - electron development build command:
+```
+  // this command launches the electron app in a new system window without building angular files
+  >npx electron .
+  
+  // this command builds angular production files and launches the electron app in a new system window
+  >npm run start:electron
+```
+### to build the Electron executable:
 - Import Electron Forge to your app folder:
 
 ```
