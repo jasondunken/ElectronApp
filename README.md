@@ -18,17 +18,17 @@ It can be compiled into an [Electron](https://www.electronjs.org) v11.3.0 execut
 - development serve command:
 ```
   // the npx command prefix tells node to use only local packages
-  // this method avoids a global Angular installation
+  // this method avoids a global angular installation
   
   // this command launches the angular app as a web page
-  >npx ng serve // Serves the app via Angular's dev server bound to 127.0.0.1:4200
+  >npx ng serve // serves the app via angular's dev server bound to 127.0.0.1:4200
   
   // some serve options 
-  --open // Open's the app in your default browser
-  --port xxxx // Binds the dev server to a port you specify
+  --open // open's the app in your default browser
+  --port xxxx // binds the dev server to a port you specify
   --host xxx.xxx.xxx.xxx // serves the app on your local network instead of 127.0.0.1
   
-  // this command launches the electron app in a new window
+  // this command builds angular production files and launches the electron app in a new system window
   >npm run start:electron
 ```
 ### to build the Angular app:
